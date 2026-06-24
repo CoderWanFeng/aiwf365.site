@@ -13,7 +13,7 @@ export const siteConfig = {
   workingOn: 'AI 内容生产 + 自动化',
 
   // ===== 联系 =====
-  email: 'hello@aiwf365.site', // TODO: 改为真实邮箱
+  email: '1957875073@qq.com', // TODO: 改为真实邮箱
   wechat: 'aiwf365', // TODO: 改为微信号
   responseTime: '通常 24 小时内回复',
 

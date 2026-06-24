@@ -113,15 +113,15 @@
         <dl class="faq">
           <div class="faq__item">
             <dt>可以接外包/合作吗？</dt>
-            <dd>看具体需求。如果是 AI 内容生产、自动化、ComfyUI 工作流方向，发邮件聊聊。</dd>
+            <dd>看具体需求。如果是 AI 内容生产、自动化、ComfyUI 工作流方向，发微信聊聊。</dd>
           </div>
           <div class="faq__item">
             <dt>项目里的素材能商用吗？</dt>
             <dd>工具与工作流可以；具体素材（视频、封面等）大多需要你替换为自己的源素材。</dd>
           </div>
           <div class="faq__item">
-            <dt>想成为你徒弟/学员？</dt>
-            <dd>暂时不开课。建议先把博客里的项目挨个跑一遍再说。</dd>
+            <dt>想成为你学员？</dt>
+            <dd>请看：<a href="https://r7up9.xetslk.com/s/1uP5YW" target="_blank" rel="noopener">程序员晚枫&图灵 AI入门课</a>。建议先把博客里的项目挨个跑一遍再说。</dd>
           </div>
         </dl>
       </div>
@@ -355,6 +355,15 @@ import { siteConfig } from '../data/site.js'
   color: var(--text-soft);
   font-size: 14px;
   line-height: 1.7;
+}
+.faq__item dd a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+}
+.faq__item dd a:hover {
+  color: #ec4899;
 }
 
 @media (max-width: 640px) {
