@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c2d12"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <!-- book + headphones -->
+  <g transform="translate(220 140)">
+    <rect x="0" y="0" width="180" height="220" rx="6" fill="#fef3c7" stroke="#92400e" stroke-width="3"/>
+    <line x1="90" y1="0" x2="90" y2="220" stroke="#92400e" stroke-width="2"/>
+    <rect x="20" y="40" width="60" height="6" rx="3" fill="#92400e"/>
+    <rect x="20" y="60" width="50" height="4" rx="2" fill="#92400e" opacity="0.5"/>
+    <rect x="100" y="40" width="60" height="6" rx="3" fill="#92400e"/>
+    <rect x="100" y="60" width="50" height="4" rx="2" fill="#92400e" opacity="0.5"/>
+    <circle cx="45" cy="150" r="14" fill="#dc2626"/>
+    <circle cx="45" cy="150" r="6" fill="#fef3c7"/>
+  </g>
+  <g transform="translate(420 130)">
+    <path d="M 80 0 Q 0 0 0 90 L 0 160 Q 0 180 20 180 L 40 180 L 40 100 L 20 100 L 20 90 Q 20 30 80 30 Q 140 30 140 90 L 140 100 L 120 100 L 120 180 L 140 180 Q 160 180 160 160 L 160 90 Q 160 0 80 0 Z" fill="#0f172a"/>
+  </g>
+  <text x="400" y="430" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="28" font-weight="800">电子书 → 有声书</text>
+</svg>
