@@ -22,7 +22,7 @@ export const siteConfig = {
     { key: 'gzh', label: '公众号', url: 'https://mp.weixin.qq.com/s/P_o6azd0AwuraLkQQg6t2Q', icon: '公' },
     { key: 'bilibili', label: 'B 站', url: 'https://space.bilibili.com/259649365', icon: 'B' },
     { key: 'zhihu', label: '知乎', url: 'https://www.zhihu.com/people/CoderWanFeng', icon: '知' },
-        { key: 'weibo', label: '微博', url: 'https://weibo.com/u/7726957925', icon: '微' },
+    { key: 'weibo', label: '微博', url: 'https://weibo.com/u/7726957925', icon: '微' },
     { key: 'douyin', label: '抖音', url: 'https://www.douyin.com/user/self?from_tab_name=main&showSubTab=compilation&showTab=favorite_collection', icon: '抖' },
     { key: 'red', label: '小红书', url: 'https://www.xiaohongshu.com/user/profile/611dcb820000000001014aca', icon: '红' },
     { key: 'github', label: 'GitHub', url: 'https://github.com/CoderWanFeng/aiwf365.site', icon: 'G' },

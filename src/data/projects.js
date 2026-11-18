@@ -99,7 +99,6 @@ export const projects = [
   },
 ]
 
-// 全部 tag（首页筛选用），按字母排序去重
 export const allTags = Array.from(
   new Set(projects.flatMap((p) => p.tags))
 ).sort((a, b) => a.localeCompare(b, 'zh-Hans-CN'))
